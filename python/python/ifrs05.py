@@ -1,13 +1,6 @@
-import math 
-
-A, B, C = map(float, input().split())
-delta = B**2 - 4*A*C
-if A == 0:
-    print('Impossível calcular')
-elif delta < 0: 
-    print('Impossível calcular')
-else:
-    R1 = (- B + math.sqrt(delta)) / (2*A)
-    R2 = (- B - math.sqrt(delta)) / (2*A)
-    print(f'R1 = {R1:.5f}')
-    print(f'R2 = {R2:.5f}')
+cont = 0
+for i in range(5):
+    num = int(input())
+    if num > 0: 
+        cont += 1  
+print('%d são positivos' % (cont)) 
