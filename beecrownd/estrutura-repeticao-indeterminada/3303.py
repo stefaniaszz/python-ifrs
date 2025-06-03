@@ -1,5 +1,5 @@
-try:
-    while True:
+while True:  
+    try:
         palavra = input()
         if len(palavra) > 20 or not palavra.islower():
             continue
@@ -7,7 +7,7 @@ try:
             print('palavrao')
         else:
             print('palavrinha')
-except:
-    print()
+    except:
+        break
 
                       
