@@ -6,7 +6,7 @@ Você deve informar c, i, m.
 
 c = float(input('Qual valor você deseja investir?'))
 i = float(input('Qual a taxa de juros do seu banco?'))
-m = float(float(input('Qual valor final desejado?')))
+m = float(input('Qual valor final desejado?'))
 t = 0
 while c < m:
     c = c * i
