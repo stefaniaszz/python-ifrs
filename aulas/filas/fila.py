@@ -1,5 +1,5 @@
 
-def criarFila():
+def criar_fila():
     list = [] #chama e retorna lista vazia pra inserir a fila
     return list
 
@@ -9,15 +9,5 @@ def enfileirar(fila, entrada):
 def desenfileirar(fila):
     return fila.pop(0) #remove o primeiro da fila 
 
-def mostrarFila(fila):
+def mostrar_fila(fila):
     print(fila)
-
-
-f = criarFila()
-enfileirar(f, "XYZ")
-enfileirar(f, "ABC")
-enfileirar(f, "KKK")
-mostrarFila(f)
-v1 = desenfileirar(f)
-enfileirar(f, "IF")
-mostrarFila(f)
