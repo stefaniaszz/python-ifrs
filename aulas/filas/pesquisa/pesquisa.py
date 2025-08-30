@@ -5,7 +5,7 @@ def pesquisa_linear (lista, elemento):
     return 0
 
 arq = open("palavrasDesord.txt", "r") #abre o arquivo importado e readlines
-palavras = arq.readlines()
+palavras = arq.readlines()  
 for i in range(len(palavras)):
     palavras[i] = palavras[i].rstrip() #tira o \n do enter no final das palavras ou espaços desnecessários
 arq.close()
