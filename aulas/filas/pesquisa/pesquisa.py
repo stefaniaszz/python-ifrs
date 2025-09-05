@@ -1,4 +1,4 @@
-def pesquisa_linear (lista, elemento):
+def pesquisa_linear (lista, elemento): #busca uma palavra dentro de uma lista desordenada
     for i in range(len(lista)):
         if lista[i] == elemento:
             return i+1
